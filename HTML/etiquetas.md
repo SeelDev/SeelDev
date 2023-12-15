@@ -5,7 +5,9 @@
  etiqueta sin contenido 
 
 ETIQUETAS CON INFORMACION ADICIONAL:
- <a></a>
+
+`` <a></a>``: ancla
+
  `atributos`: completa la etiqueta
  
 anclar links: `<a href=""></a>`
