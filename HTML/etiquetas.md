@@ -1,4 +1,4 @@
-### ETIQUETAS:
+# ETIQUETAS:
 <h1></h1> hasta <h6>
 <h1/> etiqueta sin contenido 
 
