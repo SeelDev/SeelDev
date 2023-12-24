@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literatura E.E.T.S Nº6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <thead>
+        <div class="conteiner">
+            <img src="e.e.t.s6.jpg" alt="logo del colegio" width="100" height="100" >
+            
+            <h5>
+                Escuela de Educación secundaria Técnica Nº6 Berazategui
+            </h5>
+            <h1>
+                Prácticas del Lenguaje y Literatura
+            </h1>
+        </div>
+    </thead>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+    <tbody>
+        <div style="text-align: center;">
+        <h2> TURNO MAÑANA</h2>
+        <button> <a href="https://drive.google.com/drive/folders/1HBVyY7QuCfF-5wKduViKL4zIzPuWC7Ay?usp=sharing" target="_parent"></a>1º</button>
+        <button> <a href=""></a>2º</button>
+        <button> <a href=""></a>3º</button>
+        <button> <a href=""></a>4º</button>
+        <button> <a href=""></a>5º</button>
+        <button><a href=""></a>6º</button>
+
+        <h2>TURNO TARDE</h2>
+        <button> <a href=""></a>1º</button>
+        <button> <a href=""></a>2º</button>
+        <button> <a href=""></a>3º</button>
+        <button> <a href=""></a>4º</button>
+        <button> <a href=""></a>5º</button>
+        <button><a href=""></a>6º</button>
+    </div>
+    </tbody>
+<hr>
+<br><br><br><br><br>
+    <tfoot>
+        <p>Departamento de Lengua y Literatura</p>
+        <p>Escuela Tecnica Secundaria N°6</p>
+    </tfoot>
+</body>
+</html>
