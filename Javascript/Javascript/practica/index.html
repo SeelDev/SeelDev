@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <script>
+
+        alert('Bienvenide al mundo Selánico ')
+        var nombre = prompt('Ingresa tu nombre') 
+
+        if(nombre == 'Sel') {
+            alert('Hola ' + nombre)
+                 var comer = confirm('Desea comer algo?')
+                    if( comer ) {
+                         var pedirComidaTradicional = 'Cafe con leche' 
+                         var pedirComidaRandom = 'Te con cheescake' 
+                        prompt('Ingresa lo que deseas comer. Menu: Cafe con leche y Te con cheescake')
+
+                        if(pedirComidaTradicional== 'Cafe con leche' || pedirComidaRandom == 'Te con cheescake'){
+                            alert('Enseguida te traemos la comida. Gracias por elegirnos!') 
+                        }
+                     }
+                    else {
+                        alert('Esta perfecto, nos vemos la proxima!')
+                    
+                    }                   
+        }
+        else{
+           confirm('No sos parte aun de la comunidad coquette, por favor ingresa tus datos')
+            console.log(nuevoIngreso, typeof nuevoIngreso)
+        
+             var nuevoIngreso = prompt('Ingresa tu nombre')
+                if(nuevoIngreso){
+                    alert('Hola ' + nuevoIngreso + ' ' +  'al mundo Selánico. ' + ' A continuacion diras tus datos basicos ')
+                }
+            
+            var edad = +prompt('Ingresa tu edad')
+            if( edad >= 18) {
+                confirm('Sos mayor de edad ' + nombre + ', ' + 'excelente ')
+            }
+            else if( ! (edad >= 18) ) {
+                confirm('Sos menor de edad, te recomendamos no entrar jaja')
+            }
+     }
+    
+
+
+
+
+
+
+
+
+
+
+        /*  var nombre = 'Selene'
+        alert('Bienvenido al mundo Selánico')
+        
+        var entrarAlMundo = confirm('Queres entrar?')
+         
+            prompt('Ingresa tu nombre')
+            
+         if(nombre == 'Selene'){
+            
+ 
+            var pedirComida = 'Cafe con leche'
+                     prompt('Ingresa lo que deseas tomar')
+
+                 if(pedirComida == 'Cafe con leche'){
+                     alert('Enseguida se lo traemos. Gracias por elegirnos!') 
+                 }
+                else{
+                alert('Esta perfecto, nos vemos la proxima, que lo disfrutes!')
+                }
+             
+        }
+         else { 
+            alert('No sos de la comunidad coquette, por favor ingresa tus datos')
+         } */
+            
+        
+    </script>
+</body>
+</html>

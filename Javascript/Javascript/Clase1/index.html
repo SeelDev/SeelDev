@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 1- Javascript desde 0</title>
+    <style>
+    h1 {
+        color: slateblue;
+    }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos al curso de Javascript!!!</h1>
+
+    <script>
+       /*  Uso del console.log
+        (sirve para enviar mensajes a la consola)
+        esto es un comentario en bloque */
+        //shit+alt+a
+      
+        console.log("hola mundo"); // mensaje inicial de linea
+        console.log('como estan?');
+       
+      //  console.log(1,2,3,4,5) // comentario de linea
+      
+        /* ---------------------
+        
+        contenedor dinamico de info
+        1) declarar variable
+        2) asigno un valor
+
+        ------------------------- */
+//lowerCamelCase
+    var miMensaje = 'Hola soy un programa en JS'
+        console.log(miMensaje)
+        /* document.write(miMensaje) //en el body
+        alert(miMensaje) //funcion del navegador notificacion */
+
+        var modo = 'info'
+        console.log(modo)
+//se puede reasignar un valor
+        modo ='warning'
+        console.warn(modo)
+
+        modo = 'error'
+        console.error(modo)
+
+
+       /*  tipos de variables en js */
+       //varisble del tipo number
+        var miNumero= -123.45
+        console.log(miNumero, typeof miNumero) //que tipo de cont tiene
+
+          //varisble del tipo string
+          var miString= 'hola'
+        console.log(miString, typeof miString)
+
+          //varisble del tipo booleana
+          var miBooleana= false //true
+        console.log(miBooleana, typeof miBooleana)
+
+        //si no asignamos valor
+
+         //varisble del tipo indefinida
+         var indefinida
+        console.log(indefinida, typeof indefinida)
+
+         //varisble del tipo null
+         var nula = null
+        console.log(nula, typeof nula)
+
+        // variable del tipo array (object)
+        // indice -- 0 1 2 3 4 (nombre)
+        var miArray = [1,2,3,4]
+        console.log(miArray, typeof miArray, Array.isArray(miArray)) //type object
+        //Array.isArray(miArray) booleano si es o no array
+
+         // variable del tipo object
+        // key/value o clave/valor
+        //var miObjeto = {n1:1,n2:2}  //n1= nombre
+        var miObjeto = {0:1,1:2}  //0,1= nombre
+        console.log(miObjeto, typeof miObjeto, Array.isArray(miArray)) 
+
+        /* tipado en JS (dinamico / debil) */
+        var nombreDeUnaPersona= 'Pedro'         //tipado dinamico
+        console.log(nombreDeUnaPersona, typeof nombreDeUnaPersona)
+        nombreDeUnaPersona= 'Ana'           //tipado debil   
+        console.log(nombreDeUnaPersona, typeof nombreDeUnaPersona)
+
+
+        /* OPERACIONES ARITMETICAS EN JS */
+
+        var numero = (3.5 + 4 - 2) * 5 / 2
+        console.log(numero)
+        //resultado en console
+
+        var numero2= 5
+        numero= 45 + numero2
+        console.log(numero)
+
+
+        var nombre= 'Caro'
+        console.log(nombre)
+
+
+        var numero= 67 + 100
+        console.log(numero)
+
+
+
+        var mensaje= 'Holita'
+        document.write(mensaje)
+
+        // opciones de suma: concatenacion de strings
+        var miMensaje1 = 'Hola'
+        var miMensaje2 = 'Mundo'
+        var mensajeTotal = miMensaje1 + '' + miMensaje2 //con espacio en el medio
+        console.log(mensajeTotal)
+
+
+      /* Ingreso de datos */
+
+      var numero1 = +prompt('ingrese un numero')
+      //numero1 = parseFloat(numero1)
+      console.log(numero1, typeof numero1)
+
+      var numero2 = +prompt('infrese otro numero')
+      console.log(numero2, typeof numero2)
+      //numero2 = parseFloat(numero2)
+
+      var sumar = numero1 + numero2
+
+      
+      var mensajeResultado = 'La suma de' + numero1 + 'mas' + numero2 + 'es' + sumar
+      
+      alert(mensajeResultado)
+      console.log(mensajeResultado)
+      document.write('<h3>' + mensajeResultado + '</h3>') //script + html
+
+
+      /* Operaciones en Js: MODULO : % */
+      var operando1 = +prompt('ingrese un numero')
+      var operando2 = +prompt('ingrese otro numero')
+
+      var suma = operando1 + operando2
+
+      document.write('<p> La <bstyle"color:red">  suma </b> de '+ operando1 + ' y ' + operando2 + 'es'+ suma + '</p>')
+
+      var resta = operando1 - operando2
+
+      document.write('<p> La <bstyle"color:red">  resta </b> de '+ operando1 + ' y ' + operando2 + 'es'+ resta + '</p>')
+
+      var dividir = operando1 / operando2
+
+      document.write('<p> El <bstyle"color:red"> cociente </b> de '+ operando1 + ' y ' + operando2 + 'es'+ dividir + '</p>')
+   
+      var multi = operando1 + operando2
+
+      document.write('<p> La <bstyle"color:red">  multiplica </b> de '+ operando1 + ' y ' + operando2 + 'es'+ multi + '</p>')
+      
+      var modulo = operando1 % operando2 //modulo: el resto de la division entera
+
+      document.write('<p> El <bstyle"color:red">  modulo </b> de '+ operando1 + ' y ' + operando2 + 'es'+ modulo + '</p>')
+      
+   </script>
+ 
+
+    <script>
+
+      //formas para pasar un string a NUMERO: CONVERSORES
+
+      parseInt('12') //convertir en entero
+
+      parseFloat('12') //preserva la parte decimal 
+
+      Number('12') //preserva la parte decimal 
+
+      + '12' //operador unario 
+      
+//NaN: conversion de algo que no es numerico 
+
+
+    </script>
+  
+
+
+</body>
+</html>

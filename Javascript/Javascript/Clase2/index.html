@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras CONDICIONALES</title>
+</head>
+
+<body>
+    <script>
+        /* IF / ELSE */
+        /* var respuesta = confirm('¿Desea ingresar?')
+        console.log(respuesta, typeof respuesta)
+    
+        //si la respuesta es true, entonces enviar un mensaje "bienvenido"
+        if(respuesta){
+            alert('Bienvenido!')
+        }
+        else {
+            alert('Lo esperamos la proxima!')
+        } */
+
+        /* If / else anidada */
+
+        /*   var edad = +prompt('Ingrese su edad')
+      
+          if ( edad >= 18){
+              alert('Sos mayor de edad')
+      
+              var respuesta = confirm(' ¿Deseas ingresar?')
+              if(respuesta){
+                  alert('Bienvenidoo')
+              
+                  var nombre = prompt('Diganos su nombre')
+                  if(nombre == 'Selene') {
+                      alert('Hola Selenitaaa!!')
+                  }
+                  else {
+                      alert('Buenos dias ' + nombre)
+      
+                      repuesta = confirm('¿Necesita ir al baño?')
+                      if(respuesta ) {
+                          var clave = prompt('Ingrese su clave')
+                          if( clave == '1234'){
+                               alert('Puede ingresaar!!')
+                          }
+                           else {
+                              alert ('La clave es incorrecta, pedila de nuevo en recepcion')
+                          }
+                      }
+                  }
+              }
+          }
+          else { 
+              alert('Sos menor de edad :p')
+          }  */
+
+
+
+
+        /* If / else if / else anidada */
+        /* ||
+                var edad = +prompt('Ingrese su edad')
+        
+                if( edad >= 0 && edad < 4) {
+                        alert('Ud. es un bebe')
+                    }
+                else if ( edad >= 4 && edad < 12){
+                            alert('Ud. es un niño')
+        
+                        }
+                
+                else if ( edad >= 12 && edad < 18){
+                     alert('Ud. es un adolescente')
+                }
+        
+                else if ( edad >= 18 && edad < 35){
+                     alert('Ud. es un joven')
+                }
+              
+                else if ( edad >= 35 && edad < 50){
+                     alert('Ud. es un joven adulto')
+                }
+        
+                else if ( edad >= 50 && edad < 60){
+                     alert('Ud. es un adulto')
+                }
+        
+                else if ( edad >= 60 && edad < 80){
+                     alert('Ud. es un adulto mayor')
+                }
+        
+                else if ( edad >= 80 && edad < 120){
+                     alert('Ud. es un anciano')
+                }
+                else {
+                    alert('Ud. no es humano')
+                }
+        
+         */
+        // ingreso en la categoria de joven?
+        // && AND
+        /*  var edad = +prompt('Ingrese su edad')
+            if ( edad >= 18 && edad < 35) alert('Ud. pertenece a la categoria joven')
+            else alert('Ud. no pertenece')
+            
+    // || OR
+            var edad = +prompt('Ingrese su edad')
+                if ( edad < 18 || edad >= 35) alert('Ud. no pertenece a la categoria joven')
+                else alert('Ud.  pertenece')
+    
+    // ! NOT con OR 
+            var edad = +prompt('Ingrese su edad')
+                if (!(edad < 18 || edad >= 35)) alert('Ud. pertenece a la categoria joven')
+                else alert('Ud. no pertenece') */
+
+        // obtener el nombre del dia de la semana , utilizando el numero de dia (0 a 6)//
+        //del objeto de fecha y hora (Date) siendo el dia 0 domingo, 1 lunes ... hasta elsabado, dia 6
+        // new CREA UN OBJETO PATA DATE
+        //console.dir()
+
+
+        var fyh = new Date()
+        // pruebaaa
+        //     numeroDia = 1
+        //pruebaaa
+        console.log(fyh)
+
+        var numeroDia = fyh.getDay()
+        console.log(numeroDia)
+
+        var numeroDia = ''
+        if (numeroDia == 0) nombreDia = 'Domingo'
+        else if (numero == 1) numeroDia = 'Lunes'
+        else if (numero == 2) numeroDia = 'Martes'
+        else if (numero == 3) numeroDia = 'Miercoles'
+        else if (numero == 4) numeroDia = 'Jueves'
+        else if (numero == 5) numeroDia = 'Viernes'
+        else if (numero == 6) numeroDia = 'Sabado'
+        else nombreDia = 'Desconocido'
+
+        console.log('Hoy es dia ' + nombreDia + '(if/else if/ else)')
+
+        // con switch,usa el operador de identico ===
+        switch (numeroDia) {
+            case 0:
+                nombreDia = 'Domingo'
+                break
+            case 1:
+                nombreDia = 'Lunes'
+                break
+            case 2:
+                nombreDia = 'martes'
+                break
+            case 3:
+                nombreDia = 'miercoles'
+                break
+            case 4:
+                nombreDia = 'jueves'
+                break
+            case 5:
+                nombreDia = 'viernes'
+                break
+            case 6:
+                nombreDia = 'sabado'
+                break
+            default:
+                nombreDia = 'Desconocido'
+            // break
+
+        }
+        console.log('Hoy es dia ' + nombreDia)
+
+        // usando switch; determinar si hoy es dia laboral o es fin de semana
+
+        var tipoDia = ''
+// simplificacionnn
+        switch (numeroDia) {
+            case 0:
+            case 6:
+                tipoDia = 'Fin de semana'
+                break
+
+            case 1:                
+            case 2:
+            case 3:
+            case 4:              
+            case 5:
+                tipoDia = 'Laboral'
+                break
+          
+
+            default: 
+                tipoDia = 'Desconocido'
+
+        }
+        console.log('Hoy es dia tipo ' + tipoDia)
+
+
+
+        // op. condicional TERNARIO (if /else inline simplificado)
+
+
+        var edad = 19
+
+        // con if/else
+
+        if( edad >= 18 ) console.log('Soy mayor de edad')
+        else console.log('Soy menor de edad')
+
+        // con ternario
+
+        console.log( edad >= 18? 'Soy mayor de edad' : 'Soy menor de edad')
+
+    </script>
+</body>
+
+</html>
