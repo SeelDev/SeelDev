@@ -1,0 +1,44 @@
+.conteiner 
+h1 {
+    text-align: center;
+    font-size: oblique;
+    font-variant: petite-caps;
+  
+}
+
+h5 {
+    color: teal;
+    font-size: large;
+    font-family: math;
+    font-style: italic;
+    text-align: center;
+}
+
+
+body{
+    background-color: mistyrose;
+}
+
+h2{
+    text-align: center;
+}
+
+/* button {
+        background-color: violet;
+        color: black;
+        padding: 35px;
+        border-radius: 10px;
+    }
+    
+    button:hover {
+        background-color: aqua;
+        justify-content: center;
+    
+    }
+    
+    button:focus {
+        background-color: coral;
+        justify-content: center;
+        
+    } */
+
