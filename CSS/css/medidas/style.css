@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: hsl(35, 25%, 40%);
+
+    width: 600px;
+    height: 300px;
+
+}
+
+.child{
+    background-color: bisque;
+    width: 100vw;
+    height: 10vh;
+
+}
+html{
+    font-size: 50px;
+    
+}
+
+.conteiner{
+    font-size: 18px;
+    margin: 3em;
+}
+
+
+rem

@@ -1,0 +1,78 @@
+
+h1, h2, h3, h4, h5, h6 .title, #myTitle {
+    color: brown;
+    font-size: 70px;
+}
+h1 {
+    margin: 40px;
+}
+p {
+    color: darkmagenta;
+    font-size: 14px;
+}
+
+
+.example {
+    color: blue;
+
+}
+
+#myP {
+    color: chartreuse;
+    font-size: 100px;
+}
+
+.card a {
+    color: aqua;
+}
+
+
+
+
+nav ul li a {
+    font-size: 72px;
+}
+
+a[href="/"] {
+    color: darksalmon;
+}
+
+
+
+* {
+    color: green;
+}
+
+
+
+
+h1{
+    color: yellow !important;
+}
+
+.title{
+    color: violet;
+}
+
+#titleId {
+    color: tomato;
+}
+
+
+
+
+
+button  {
+    background-color: violet;
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+button:focus {
+    background-color: tomato;
+}
