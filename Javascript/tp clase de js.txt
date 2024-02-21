@@ -1,0 +1,15 @@
+//--------------------------------------------------------------------------------------------------
+console.warn('\n/* --------------------------------------------------------------------------------- */')
+
+
+console.warn(  '/* Representar los números del 10 al 40 clasificándolos en pares e impares (con for) */')
+
+console.warn(  '/* además, indicar con un asterisco (*) los múltiplos de 3 , también indicar con un  */')
+
+console.warn(  '/* numeral (#) los múltiplos de 5 - Ej: "15 IMPAR * #" - "14 PAR" - "21 IMPAR *"     */')
+
+
+console.warn(  '/* --------------------------------------------------------------------------------- */')
+
+https://drive.google.com/drive/folders/1_wrA6Ep8qX51C2nId6lIIfeQGZHLJozX
+
