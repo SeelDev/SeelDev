@@ -1,0 +1,51 @@
+#--------------------------------
+#	       Proyecto
+#--------------------------------
+
+
+
+while True :
+#-----------------------------------------------------------------------
+	entrarAlJuego = input("queres entrar al juego (s/n)" )
+	if entrarAlJuego == "s":
+		print("Hola elfo, caminando te encontraste con el orco y se lo ve enojado y te atacó ")
+	else:
+		print ("bueno chau")
+		break
+		
+	atacar = input ("atacar con el un cuchillo al orco (s/n)")
+	if atacar == "s" :
+		print("no tuviste la capacidad suficiente para matarlo!!! le quedan 2 vidas")
+	else :
+		print("no quisiste pelear, moriste")
+		break
+#-----------------------------------------------------------------------
+				
+	atacarConDagaMagica = input ("tenes otro intento mas, aceptas usar la Daga magica? (s/n)")
+	if atacarConDagaMagica == "s":
+		print("MUY BIEN, ya casi lo matas cuidado porque se viene heavy...")
+	else :
+		print ("no pudiste matarlo por tu falta de ganas, el orco te ataca y mueres")
+		break
+#-----------------------------------------------------------------------
+saboteador = input("YA CASI LO TENES! solo queda lo peor... Queres intentar matarlo con la espada legendaria? (s/n)")
+	if saboteador == "n" :
+		rayo = print("Muy bien, no caiste en la trampa. Con este RAYO PULVERIZADOR ganaras el juego (s/n )")
+			if rayo == "s" :
+				print= ("Ganaste el juegooo")	
+	else :
+		if saboteador == "s": 
+			print("JA! caiste en la trampa debiste elegir RAYO PULVERIZADOR, moriste")
+			break
+				
+		
+		
+		
+	'''
+	else :
+		print ("no pudiste matarlo por tu falta de ganas, el orco te ataca y mueres")
+		break
+	
+		'''
+		
+print("game over")
