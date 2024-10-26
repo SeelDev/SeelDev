@@ -1,0 +1,271 @@
+/* styles.css */
+/*--------------------------------------*/
+/* header                               */
+/*--------------------------------------*/
+
+.logo{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100px; /* Altura del contenedor */
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+/*.TituloPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+no se que hace este conteiner*/
+
+.title {
+   
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #1ddad8; 
+}
+.subtitulo {
+    font-family: 'Calibri', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color:black;
+}
+
+.boton-wpp1{
+    display: flex; justify-content: center;
+    background-color: #ffb498;
+    color: black;
+    padding: 20px 5px;
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.3rem;
+}
+/*--------------------------------------*/
+/*      BODY                            */
+/*--------------------------------------*/
+
+/* .parrafoPrincipal {
+    /* Estilos para la caja blanca 
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Centrar el contenido horizontalmente 
+    text-align: left;
+    /* Alinear verticalmente en el centro de la página 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ancho máximo para la caja blanca 
+    max-width: 600px;
+}
+*/
+
+
+.parrafoInfo {
+    
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size:1.3rem;
+    text-align: center;
+}
+
+.ComInt{ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size:1.5rem;
+    text-align: center;
+}
+.textoComunInter, .textoComunExter{
+    font-family: 'Calibri', sans-serif;
+}
+
+.conteinerIframeSerp{
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+  }
+  .conteinerIframeSerp iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+.conteinerCajaDerecha , .conteinerCajaIzquierda{
+    width: 500px;
+    height: 500px; 
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*difuminado de caja*/
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    float: inline-start;
+    
+ 
+}
+
+
+
+.ComExt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size:1.5rem;
+    text-align: center;
+}
+
+/*-------------------IMAGEN DE BITACORA-------------------*/
+.imgBitacora{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    width: 350px; /* ancho del contenedor */
+    height: 350px; /* Altura del contenedor */
+    max-width: 400%;
+    max-height: 500%;
+    float: inline-start;
+    padding: 70px;
+}
+
+
+
+/*----------------BOX CURSO Y COMPRA DE BITACORA----------------------*/
+.infoCompraBityCurso{
+    width: 500px;
+    height: 281px; 
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*difuminado de caja*/
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    padding: 80px;
+    margin: 20px;
+    float: inline-start; /*para poner la cajita al lado de la otra*/
+    align-items: center;
+
+
+}
+/*------------Info compra de bitacora y curso------------*/
+.infoB-C{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size:1rem;
+    text-align: center;
+}
+.tituloCurso{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+    font-size:2rem;
+    text-align: center;
+}
+
+.parrafCurso{
+    font-family: 'Calibri', sans-serif;
+    font-size:1rem;
+    text-align: center;
+}
+.boton-wpp{
+    display: flex; justify-content: center;
+    background-color: #ffb498;
+    color: black;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+.backgroundFrases{
+    background-color: #ffb498;
+    width: 1300px;
+    height: 50px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #ffb498;
+    padding: 10px;
+    margin: 0px;
+    float: inline-start; /*para poner la cajita al lado de la otra*/
+}
+
+.textoIlum{
+    font-style: oblique;
+    padding:5px ;
+    text-align: center;
+}
+
+/*-----------Espacio testimonio---------*/
+.picTest{
+    /*el alto y el ancho esta en html*/
+    padding: 80px;
+    float: inline-start;
+}
+
+.cajaTestimonio{
+    
+    width: 500px;
+    height: 281px; 
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*difuminado de caja*/
+    border: 2px solid lightblue;
+    border-radius: 50px;
+    padding: 80px;
+    margin: 20px;
+    float: inline-start; /*para poner la cajita al lado de la otra*/
+    align-items: center;
+}
+
+.contenidoTest{
+    font-style: Garamond;
+}
+
+/*-----------Espacio profesora---------*/
+.conteinerProf{
+    width: 500px;
+    height: 281px; 
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /*difuminado de caja*/
+    border: 2px solid lightblue;
+    border-radius: 50px;
+    padding: 80px;
+    margin: 20px;
+    float: inline-start; /*para poner la cajita al lado de la otra*/
+    align-items: center;
+}
+
+
+.tituloProf, .textoProf{
+    font-style: Garamond;
+
+}
+
+.imgProf{
+     /*el alto y el ancho esta en html*/
+    padding: 80px;
+    float: inline-start;
+}
+
