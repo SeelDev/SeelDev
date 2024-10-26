@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} /*sacarle las medidas y diseños que trae la pagina por defult*/
+
+.titulosPrincipales{
+    padding: 10px;
+    background-color: #1ddad8;
+}
+.subtitleUno{
+    font-style: oblique;
+    text-align: center;
+    font-size: 1,25rem;
+}
+
+.partepeque{
+    text-align: center;
+}
+.nombre{
+    text-align: center;
+    font-style: oblique;
+    font-size: 2.5rem;
+}
+
+
+.textpnl{
+    font-size: 1.2rem;
+    font-style: arial;
+    text-align: center;
+}
+/*---------------------------------------------------------------------*/
+.bitacoras{
+    display: flex;
+    gap: 80px;
+    position: relative;
+    left: 150px;
+
+}
+.titulo{
+    padding: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+    caret-color: #1ddad8;
+
+}
+
+.productosBitacora{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 100px;
+    column-gap: 25px;
+    
+
+}
+
+.bitacora1{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 3px 5px #255d3c20;
+
+    .imgbitacora1{
+        position: relative;
+        height: 100px;
+            img{
+                height: 200px;
+                object-fit: contain;
+                position: absolute;
+                bottom: 0;
+                right: -40px;
+            }
+    }
+    h3{
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .tituloyprecio{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        span{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    .descripcion{
+        font-size: 14px;
+        color: black;
+        flex: 1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .precio{
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*acomodar media queris*/
+@media (max-width:800px){
+    .cabecera{
+        width: 100%;
+    }
+    .bitacoras{
+        flex-direction: column-reverse;
+        width: 50%;
+    }
+    
+}
+
+
